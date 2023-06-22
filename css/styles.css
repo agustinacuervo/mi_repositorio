@@ -1,0 +1,172 @@
+/* font-family: 'Montserrat', sans-serif; */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    background-color: white;
+    text-align: center;
+}
+
+/* Header */
+.titulo-principal-logo {
+    height: 10vh;
+    resize: both;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10% ;
+}
+.titulo-principal-logo h1 {
+    font-family:'Montserrat', sans-serif;
+    font-weight: 500;
+    color: rgb(237, 130, 23);
+    margin-right: 15px;
+    background-color: white;
+}
+
+/* LOGO */
+.logo {
+    height: 10vh;
+    resize: both;
+    overflow: auto;
+    background-color: beige;}
+
+
+/* BARRA DE NAVEGACIÓN */
+
+.navbar {
+
+    background-color: rgb(211, 84, 0);
+    list-style: none;
+    margin: auto;
+    padding: 0, 50px;
+    width: 90%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;
+    text-align: center ;
+
+}
+
+@media screen and (max-width: 700px) {
+    .navbar{
+        flex-direction: column;
+    }
+}
+
+
+
+/* Imagen de fondo */
+.caja-fondo {
+    height: 60vh;
+    resize: both;
+    overflow: auto;
+    background-color: beige;
+    background-image: url("../img/instalación-7.jpg");
+
+    background-repeat: no-repeat;
+    
+    background-position: center;
+
+    background-size: contain;
+
+    background-attachment: fixed;
+}
+
+/* Main */
+
+article {
+    background-color: beige;
+}
+
+
+p {
+    color:rgb(90, 83, 76)
+}
+
+.titulo-eljardin {
+    color: rgb(237, 130, 23);
+}
+
+/* Boton solicita tu entrevista */
+
+.button {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-link{
+    text-decoration: none;
+    padding: 20px,50px;
+    font-size: 1,5rem;
+    position: relative;
+    margin: 32px;
+    background: rgb(211, 84, 0);
+    color: antiquewhite;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+
+}
+
+/* FORMATO GENERAL DE LAS IMAGENES DEL SITIO */
+
+.form-responsive{
+    height: auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    padding: 5px;
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+
+}
+
+/* IMAGENES DE CARROUSEL --> PREGUNTA TUTOR ¿Como puedo hacer que las imagenes no se pixelen ya que todas tienen tamaños distintos. Mi idea es que cada una mantega su tamaño.*/
+
+.slide{ 
+    margin-top: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+.slide img{
+    height: 75vh;
+    width: auto
+}
+
+/* FORMATO TITULOS  */
+
+h3{
+    margin: 50px;
+    font-size: 1.2rem;
+    color: rgb(211, 84, 0)
+}
+
+h2 {
+    margin: 50px;
+    font-size: 1.5rem;
+}
+
+/* FORMATO GENERAL DE LAS IMAGENES - RESPONSIVE */
+
+.container{
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+}
